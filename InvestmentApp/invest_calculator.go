@@ -20,6 +20,18 @@ func main() {
 	// Declare and initialize the number of years
 	var years float64 = 10
 
+	fmt.Print("Enter the investment amount: ")
+	// Read the investment amount from the console
+	fmt.Scan(&investmentAmount)
+
+	fmt.Print("Enter the expected return rate: ")
+	// Read the expected return rate from the console
+	fmt.Scan(&expectedReturnRate)
+
+	fmt.Print("Enter the number of years: ")
+	// Read the number of years from the console
+	fmt.Scan(&years)
+
 	// Declare and initialize the inflation rate as a constant
 	const inflationRate float64 = 3.5
 
