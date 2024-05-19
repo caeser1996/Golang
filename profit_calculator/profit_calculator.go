@@ -23,4 +23,8 @@ func main() {
 	fmt.Println("Earnings before tax is ", ebt) // Printing the earnings before tax
 	fmt.Println("Profit is ", profit) // Printing the profit
 	fmt.Println("Ratio is ", ratio) // Printing the ratio
+
+	// inline print using printf and add everythign in one line
+	fmt.Printf("Earnings before tax is %.2f, Profit is %.2f, Ratio is %.2f\n", ebt, profit, ratio)
+
 }
